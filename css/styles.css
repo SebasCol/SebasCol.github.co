@@ -1,0 +1,16 @@
+.img_foto{
+    width: calc(5em + 6vw);
+    height: calc(3em + 15vh);
+    display:block;
+    margin:auto;
+    
+}
+.titulo {
+    font-family: Lobster;
+    font-size: calc(1em + 3vw);
+  }
+.texto_titulo {
+    font-family: Lobster;
+    font-size: calc(1em + 1vw);
+    
+  }

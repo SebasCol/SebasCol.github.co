@@ -1,1612 +1,257 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <title>Bootstrap 4 Example</title>
+
+<head>
+    <title>Portafolio Sebastian Colmenares</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <div class="container p-3 my-3 bg-primary text-white">
-      <h1>My First Bootstrap Page</h1>
-      <p>This is some text.</p>
-    </div>
-    <div class="container p-3 my-3 bg-dark text-white">
-      <h1>My First Bootstrap Page</h1>
-      <p>This is some text.</p>
-    </div>
-    <div class="container-sm">.container-sm</div>
-    <div class="container-md">.container-md</div>
-    <div class="container-lg">.container-lg</div>
-    <div class="container-xl">.container-xl</div>
-    <!-- Or let Bootstrap automatically handle the layout -->
-    <div class="row">
-      <div class="col">a</div>
-      <div class="col">b</div>
-      <div class="col">c</div>
-    </div>
-    <div class="row">
-      <div class="col-sm-3">.col-sm-3</div>
-      <div class="col-sm-3">.col-sm-3</div>
-      <div class="col-sm-3">.col-sm-3</div>
-      <div class="col-sm-3">.col-sm-3</div>
-    </div>
-    <div class="row">
-      <div class="col-sm-4">.col-sm-4</div>
-      <div class="col-sm-8">.col-sm-8</div>
-    </div>
-    <div class="jumbotron">
-      <h1>Bootstrap Tutorial</h1>
-      <p>Bootstrap is the most popular HTML, CSS...</p>
-    </div>
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1>Bootstrap Tutorial</h1>
-        <p>Bootstrap is the most popular HTML, CSS...</p>
-      </div>
-    </div>
-    <div class="alert alert-success">
-      <strong>Success!</strong> Indicates a successful or positive action.
-    </div>
-    <div class="alert alert-success">
-      <strong>Success!</strong> You should
-      <a href="#" class="alert-link">read this message</a>.
-    </div>
-    <div class="alert alert-success alert-dismissible">
-      <button type="button" class="close" data-dismiss="alert">&times;</button>
-      <strong>Success!</strong> Indicates a successful or positive action.
-    </div>
-    <div class="alert alert-danger alert-dismissible fade show">
-      <button type="button" class="close" data-dismiss="alert">&times;</button>
-      <strong>Success!</strong> Indicates a successful or positive action.
-    </div>
-    <button type="button" class="btn">Basic</button>
-    <button type="button" class="btn btn-primary">Primary</button>
-    <button type="button" class="btn btn-secondary">Secondary</button>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-info">Info</button>
-    <button type="button" class="btn btn-warning">Warning</button>
-    <button type="button" class="btn btn-danger">Danger</button>
-    <button type="button" class="btn btn-dark">Dark</button>
-    <button type="button" class="btn btn-light">Light</button>
-    <button type="button" class="btn btn-link">Link</button>
-    <a href="#" class="btn btn-info" role="button">Link Button</a>
-    <button type="button" class="btn btn-info">Button</button>
-    <input type="button" class="btn btn-info" value="Input Button" />
-    <input type="submit" class="btn btn-info" value="Submit Button" />
-    <button type="button" class="btn btn-outline-primary">Primary</button>
-    <button type="button" class="btn btn-outline-secondary">Secondary</button>
-    <button type="button" class="btn btn-outline-success">Success</button>
-    <button type="button" class="btn btn-outline-info">Info</button>
-    <button type="button" class="btn btn-outline-warning">Warning</button>
-    <button type="button" class="btn btn-outline-danger">Danger</button>
-    <button type="button" class="btn btn-outline-dark">Dark</button>
-    <button type="button" class="btn btn-outline-light text-dark">Light</button>
-    <button type="button" class="btn btn-primary btn-lg">Large</button>
-    <button type="button" class="btn btn-primary">Default</button>
-    <button type="button" class="btn btn-primary btn-sm">Small</button>
-    <button type="button" class="btn btn-primary btn-block">
-      Full-Width Button
-    </button>
-    <button type="button" class="btn btn-primary active">Active Primary</button>
-    <button type="button" class="btn btn-primary" disabled>
-      Disabled Primary
-    </button>
-    <a href="#" class="btn btn-primary disabled">Disabled Link</a>
-    <button class="btn btn-primary">
-      <span class="spinner-border spinner-border-sm"></span>
-    </button>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://bootswatch.com/5/solar/bootstrap.min.css" rel="stylesheet">
 
-    <button class="btn btn-primary">
-      <span class="spinner-border spinner-border-sm"></span>
-      Loading..
-    </button>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
 
-    <button class="btn btn-primary" disabled>
-      <span class="spinner-border spinner-border-sm"></span>
-      Loading..
-    </button>
+<body class="bg-dark">
+    <div class="container">
+        <div class="jumbotron  bg-dark">
+            <div class="row">
+                <div class="col-3 pt-4">
 
-    <button class="btn btn-primary" disabled>
-      <span class="spinner-grow spinner-grow-sm"></span>
-      Loading..
-    </button>
-    <div class="btn-group">
-      <button type="button" class="btn btn-primary">Apple</button>
-      <button type="button" class="btn btn-primary">Samsung</button>
-      <button type="button" class="btn btn-primary">Sony</button>
-    </div>
-    <div class="btn-group btn-group-lg">
-      <button type="button" class="btn btn-primary">Apple</button>
-      <button type="button" class="btn btn-primary">Samsung</button>
-      <button type="button" class="btn btn-primary">Sony</button>
-    </div>
-    <div class="btn-group-vertical">
-      <button type="button" class="btn btn-primary">Apple</button>
-      <button type="button" class="btn btn-primary">Samsung</button>
-      <button type="button" class="btn btn-primary">Sony</button>
-    </div>
-    <div class="btn-group">
-      <button type="button" class="btn btn-primary">Apple</button>
-      <button type="button" class="btn btn-primary">Samsung</button>
-      <div class="btn-group">
-        <button
-          type="button"
-          class="btn btn-primary dropdown-toggle"
-          data-toggle="dropdown"
-        >
-          Sony
-        </button>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Tablet</a>
-          <a class="dropdown-item" href="#">Smartphone</a>
+                    <img class="rounded img-fluid img_foto " src="img/foto.png" />
+
+                </div>
+                <div class="col-9 ">
+                    <h1 class="titulo">Jhoan Sebastian Colmenares Garcia</h1>
+                    <h3 class=" texto_titulo">
+                        Ingeniero Electronico - UPB Bucaramanga
+                        <br />
+                        24 años - Floridablanca, Santander
+                        <br />
+                        3125210197
+                        <a href="wa.link/k36lsd" target="_blank">
+                            <i class="fab fa-whatsapp-square text-muted"></i>
+                        </a>
+                        <br />
+                        sebastiancolmenares1997 @gmail.com
+                        <a href="#" target="_blank">
+                            <i class="fas fa-envelope text-muted"></i>
+                        </a>
+                        <br />
+                        linkedin
+                        <a href="https://www.linkedin.com/in/sebastian-colmenares-460503202/" target="_blank">
+                            <i class="fab fa-linkedin text-muted"></i>
+
+                        </a>
+
+                    </h3>
+                </div>
+
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="btn-group">
-      <button type="button" class="btn btn-primary">Sony</button>
-      <button
-        type="button"
-        class="btn btn-primary dropdown-toggle dropdown-toggle-split"
-        data-toggle="dropdown"
-      >
-        <span class="caret"></span>
-      </button>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Tablet</a>
-        <a class="dropdown-item" href="#">Smartphone</a>
-      </div>
-    </div>
-    <div class="btn-group-vertical">
-      <button type="button" class="btn btn-primary">Apple</button>
-      <button type="button" class="btn btn-primary">Samsung</button>
-      <div class="btn-group">
-        <button
-          type="button"
-          class="btn btn-primary dropdown-toggle"
-          data-toggle="dropdown"
-        >
-          Sony
-        </button>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Tablet</a>
-          <a class="dropdown-item" href="#">Smartphone</a>
+        <div class=" ">
+            <div class="row border  ">
+                <ul class="nav nav-tabs ">
+                    <li class="nav-item ">
+                        <a class="nav-link " data-bs-toggle="tab" href="#estudio">Estudios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#skill">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-bs-toggle="tab" href="#proyectos">Proyectos</a>
+                    </li>
+
+                </ul>
+                <div class="tab-content bg-dark text-white border p-3">
+
+                    <div class="tab-pane fade active show" id="estudio">
+                        <h2>Estudios</h2>
+                        <table class="table table-striped table-bordered table-sm table-responsive-sm">
+
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        2007 <br />
+                                        Floridablanca
+                                    </td>
+                                    <td>
+                                        BASICA PRIMARIA <br />
+                                        Concentración Domingo Savio
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2013 <br />
+                                        Floridablanca
+                                    </td>
+                                    <td>
+                                        BACHILLER TECNICO ESPECIALIDAD EN COMERCIO<br />
+                                        Colegio Santa Isabel de Hungría
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2013 <br />
+                                        Floridablanca
+                                    </td>
+                                    <td>
+                                        TECNICO EN CONTABILIDAD<br />
+                                        SENA
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2021 <br />
+                                        Piedecuesta
+                                    </td>
+                                    <td>
+                                        INGENIERO ELECTRONICO<br />
+                                        Universidad Pontificia Bolivariana
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h2>Cursos</h2>
+                                    </td>
+                                </tr>
+
+
+
+                                <tr>
+                                    <td>
+                                        2021 <br />
+                                        ONLINE
+                                    </td>
+                                    <td>
+                                        UNIVERSIDAD PYTHON 2021 – POO, DJANGO, FLASK Y POSTGRESQL. <br />
+                                        Udemy
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2021 <br />
+                                        ONLINE
+                                    </td>
+                                    <td>
+                                        UNIVERSIDAD DESARROLLO WEB 2021 - FRONTEND WEB DEVELOPER! - HTML5, CSS Y
+                                        JAVASCRIPT.<br />
+                                        Udemy
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+
+
+
+
+                    </div>
+
+                    <div class="tab-pane fade" id="skill">
+                        <h2>Front end</h2>
+
+                        <h4>HTML <i class="fab fa-html5 fa-2x"></i></h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                                style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h4>CSS <i class="fab fa-css3-alt fa-2x"></i></h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                                style="width: 65%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h4>Bootstrap <i class="fab fa-bootstrap fa-2x"></i></h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                                style="width: 65%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <h4>JS <i class="fab fa-js fa-2x"></i></h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                                style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h2>Back end</h2>
+                        <h4>Python <i class="fab fa-python fa-2x"></i></h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                                style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h4>Java <i class="fab fa-java fa-2x"></i></h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                                style="width: 20%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <h4>SQL <i class="fas fa-database fa-2x"></i></i></h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                                style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+
+                    </div>
+                    <div class="tab-pane fade" id="proyectos">
+                        <div class="row">
+                            <div class="card text-white border-info bg-secondary m-3 col-sm-4"
+                                style="max-width: 20rem;">
+                                <div class="card-header">Mi cita medica</div>
+                                <div class="card-body">
+                                    <img class="rounded img-fluid img_foto " src="img/proyecto_micitamedica.png" />
+                                    <h4 class="card-title">Proyecto MisionTic 2021</h4>
+                                    <p class="card-text ">Pagina web diseñada para el manejo de informacion general de
+                                        una clinica, con solicitud de citas medicas y contacto con envio de informacion
+                                        por correo</p>
+                                </div>
+                                <div class="card-footer">
+                                    <i class="fab fa-html5 fa-2x"></i>
+                                    <i class="fab fa-css3-alt fa-2x"></i>
+                                    <i class="fab fa-bootstrap fa-2x"></i>
+                                    <i class="fab fa-js fa-2x"></i>
+                                    <i class="fab fa-python fa-2x"></i>
+                                    <i class="fas fa-database fa-2x"></i>
+
+                                </div>
+                            </div>
+                            <div class="card text-white bg-secondary m-3 col-sm-4l" style="max-width: 20rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Secondary card title</h4>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <div class="card text-white bg-secondary m-3 col-sm-4l" style="max-width: 20rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Secondary card title</h4>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="dropdown2">
+                        <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold
+                            out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack
+                            portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred
+                            vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral
+                            locavore cosby sweater.</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
-      </div>
     </div>
-    <div class="btn-group">
-      <button type="button" class="btn btn-primary">Apple</button>
-      <button type="button" class="btn btn-primary">Samsung</button>
-      <button type="button" class="btn btn-primary">Sony</button>
-    </div>
+    <footer>
+        <div class="container p-3 m-3"></div>
+    </footer>
+</body>
 
-    <div class="btn-group">
-      <button type="button" class="btn btn-primary">BMW</button>
-      <button type="button" class="btn btn-primary">Mercedes</button>
-      <button type="button" class="btn btn-primary">Volvo</button>
-    </div>
-    <h1>Example heading <span class="badge badge-secondary">New</span></h1>
-    <h2>Example heading <span class="badge badge-secondary">New</span></h2>
-    <h3>Example heading <span class="badge badge-secondary">New</span></h3>
-    <h4>Example heading <span class="badge badge-secondary">New</span></h4>
-    <h5>Example heading <span class="badge badge-secondary">New</span></h5>
-    <h6>Example heading <span class="badge badge-secondary">New</span></h6>
-    <span class="badge badge-primary">Primary</span>
-    <span class="badge badge-secondary">Secondary</span>
-    <span class="badge badge-success">Success</span>
-    <span class="badge badge-danger">Danger</span>
-    <span class="badge badge-warning">Warning</span>
-    <span class="badge badge-info">Info</span>
-    <span class="badge badge-light">Light</span>
-    <span class="badge badge-dark">Dark</span>
-    <span class="badge badge-pill badge-primary">Primary</span>
-    <span class="badge badge-pill badge-secondary">Secondary</span>
-    <span class="badge badge-pill badge-success">Success</span>
-    <span class="badge badge-pill badge-danger">Danger</span>
-    <span class="badge badge-pill badge-warning">Warning</span>
-    <span class="badge badge-pill badge-info">Info</span>
-    <span class="badge badge-pill badge-light">Light</span>
-    <span class="badge badge-pill badge-dark">Dark</span>
-    <button type="button" class="btn btn-primary">
-      Messages <span class="badge badge-light">4</span>
-    </button>
-    <div class="progress">
-      <div class="progress-bar" style="width: 70%"></div>
-    </div>
-    <div class="progress" style="height: 20px">
-      <div class="progress-bar" style="width: 40%; height: 20px"></div>
-    </div>
-    <div class="progress">
-      <div class="progress-bar" style="width: 70%">70%</div>
-    </div>
-    <!-- Blue -->
-    <div class="progress">
-      <div class="progress-bar" style="width: 10%"></div>
-    </div>
-
-    <!-- Green -->
-    <div class="progress">
-      <div class="progress-bar bg-success" style="width: 20%"></div>
-    </div>
-
-    <!-- Turquoise -->
-    <div class="progress">
-      <div class="progress-bar bg-info" style="width: 30%"></div>
-    </div>
-
-    <!-- Orange -->
-    <div class="progress">
-      <div class="progress-bar bg-warning" style="width: 40%"></div>
-    </div>
-
-    <!-- Red -->
-    <div class="progress">
-      <div class="progress-bar bg-danger" style="width: 50%"></div>
-    </div>
-
-    <!-- White -->
-    <div class="progress border">
-      <div class="progress-bar bg-white" style="width: 60%"></div>
-    </div>
-
-    <!-- Grey -->
-    <div class="progress">
-      <div class="progress-bar bg-secondary" style="width: 70%"></div>
-    </div>
-
-    <!-- Light Grey -->
-    <div class="progress border">
-      <div class="progress-bar bg-light" style="width: 80%"></div>
-    </div>
-
-    <!-- Dark Grey -->
-    <div class="progress">
-      <div class="progress-bar bg-dark" style="width: 90%"></div>
-    </div>
-    <div class="progress">
-      <div class="progress-bar progress-bar-striped" style="width: 40%"></div>
-    </div>
-    <div
-      class="progress-bar progress-bar-striped progress-bar-animated"
-      style="width: 40%"
-    ></div>
-    <div class="progress">
-      <div class="progress-bar bg-success" style="width: 40%">Free Space</div>
-      <div class="progress-bar bg-warning" style="width: 10%">Warning</div>
-      <div class="progress-bar bg-danger" style="width: 20%">Danger</div>
-    </div>
-    <div class="spinner-border text-muted"></div>
-    <div class="spinner-border text-primary"></div>
-    <div class="spinner-border text-success"></div>
-    <div class="spinner-border text-info"></div>
-    <div class="spinner-border text-warning"></div>
-    <div class="spinner-border text-danger"></div>
-    <div class="spinner-border text-secondary"></div>
-    <div class="spinner-border text-dark"></div>
-    <div class="spinner-border text-light"></div>
-    <div class="spinner-grow text-muted"></div>
-    <div class="spinner-grow text-primary"></div>
-    <div class="spinner-grow text-success"></div>
-    <div class="spinner-grow text-info"></div>
-    <div class="spinner-grow text-warning"></div>
-    <div class="spinner-grow text-danger"></div>
-    <div class="spinner-grow text-secondary"></div>
-    <div class="spinner-grow text-dark"></div>
-    <div class="spinner-grow text-light"></div>
-    <ul class="pagination">
-      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-      <li class="page-item"><a class="page-link" href="#">1</a></li>
-      <li class="page-item"><a class="page-link" href="#">2</a></li>
-      <li class="page-item"><a class="page-link" href="#">3</a></li>
-      <li class="page-item"><a class="page-link" href="#">Next</a></li>
-    </ul>
-    <ul class="pagination">
-      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-      <li class="page-item"><a class="page-link" href="#">1</a></li>
-      <li class="page-item active"><a class="page-link" href="#">2</a></li>
-      <li class="page-item"><a class="page-link" href="#">3</a></li>
-      <li class="page-item"><a class="page-link" href="#">Next</a></li>
-    </ul>
-    <ul class="pagination">
-      <li class="page-item disabled">
-        <a class="page-link" href="#">Previous</a>
-      </li>
-      <li class="page-item"><a class="page-link" href="#">1</a></li>
-      <li class="page-item"><a class="page-link" href="#">2</a></li>
-      <li class="page-item"><a class="page-link" href="#">3</a></li>
-      <li class="page-item"><a class="page-link" href="#">Next</a></li>
-    </ul>
-    <ul class="pagination pagination-lg">
-      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-      <li class="page-item"><a class="page-link" href="#">1</a></li>
-      <li class="page-item"><a class="page-link" href="#">2</a></li>
-      <li class="page-item"><a class="page-link" href="#">3</a></li>
-      <li class="page-item"><a class="page-link" href="#">Next</a></li>
-    </ul>
-
-    <ul class="pagination pagination-sm">
-      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-      <li class="page-item"><a class="page-link" href="#">1</a></li>
-      <li class="page-item"><a class="page-link" href="#">2</a></li>
-      <li class="page-item"><a class="page-link" href="#">3</a></li>
-      <li class="page-item"><a class="page-link" href="#">Next</a></li>
-    </ul>
-    <!-- Default (left-aligned) -->
-    <ul class="pagination" style="margin: 20px 0">
-      <li class="page-item">...</li>
-    </ul>
-
-    <!-- Center-aligned -->
-    <ul class="pagination justify-content-center" style="margin: 20px 0">
-      <li class="page-item">...</li>
-    </ul>
-
-    <!-- Right-aligned -->
-    <ul class="pagination justify-content-end" style="margin: 20px 0">
-      <li class="page-item">...</li>
-    </ul>
-    <ul class="breadcrumb">
-      <li class="breadcrumb-item"><a href="#">Photos</a></li>
-      <li class="breadcrumb-item"><a href="#">Summer 2017</a></li>
-      <li class="breadcrumb-item"><a href="#">Italy</a></li>
-      <li class="breadcrumb-item active">Rome</li>
-    </ul>
-    <ul class="list-group">
-      <li class="list-group-item">First item</li>
-      <li class="list-group-item">Second item</li>
-      <li class="list-group-item">Third item</li>
-    </ul>
-    <ul class="list-group">
-      <li class="list-group-item active">Active item</li>
-      <li class="list-group-item">Second item</li>
-      <li class="list-group-item">Third item</li>
-    </ul>
-    <div class="list-group">
-      <a href="#" class="list-group-item list-group-item-action">First item</a>
-      <a href="#" class="list-group-item list-group-item-action">Second item</a>
-      <a href="#" class="list-group-item list-group-item-action">Third item</a>
-    </div>
-    <div class="list-group">
-      <a href="#" class="list-group-item disabled">Disabled item</a>
-      <a href="#" class="list-group-item disabled">Disabled item</a>
-      <a href="#" class="list-group-item">Third item</a>
-    </div>
-    <ul class="list-group list-group-horizontal">
-      <li class="list-group-item">First item</li>
-      <li class="list-group-item">Second item</li>
-      <li class="list-group-item">Third item</li>
-      <li class="list-group-item">Fourth item</li>
-    </ul>
-    <ul class="list-group">
-      <li class="list-group-item list-group-item-success">Success item</li>
-      <li class="list-group-item list-group-item-secondary">Secondary item</li>
-      <li class="list-group-item list-group-item-info">Info item</li>
-      <li class="list-group-item list-group-item-warning">Warning item</li>
-      <li class="list-group-item list-group-item-danger">Danger item</li>
-      <li class="list-group-item list-group-item-primary">Primary item</li>
-      <li class="list-group-item list-group-item-dark">Dark item</li>
-      <li class="list-group-item list-group-item-light">Light item</li>
-    </ul>
-    <div class="list-group">
-      <a href="#" class="list-group-item list-group-item-action">Action item</a>
-      <a
-        href="#"
-        class="list-group-item list-group-item-action list-group-item-success"
-        >Success item</a
-      >
-      <a
-        href="#"
-        class="list-group-item list-group-item-action list-group-item-secondary"
-        >Secondary item</a
-      >
-      <a
-        href="#"
-        class="list-group-item list-group-item-action list-group-item-info"
-        >Info item</a
-      >
-      <a
-        href="#"
-        class="list-group-item list-group-item-action list-group-item-warning"
-        >Warning item</a
-      >
-      <a
-        href="#"
-        class="list-group-item list-group-item-action list-group-item-danger"
-        >Danger item</a
-      >
-      <a
-        href="#"
-        class="list-group-item list-group-item-action list-group-item-primary"
-        >Primary item</a
-      >
-      <a
-        href="#"
-        class="list-group-item list-group-item-action list-group-item-dark"
-        >Dark item</a
-      >
-      <a
-        href="#"
-        class="list-group-item list-group-item-action list-group-item-light"
-        >Light item</a
-      >
-    </div>
-    <ul class="list-group">
-      <li
-        class="
-          list-group-item
-          d-flex
-          justify-content-between
-          align-items-center
-        "
-      >
-        Inbox
-        <span class="badge badge-primary badge-pill">12</span>
-      </li>
-      <li
-        class="
-          list-group-item
-          d-flex
-          justify-content-between
-          align-items-center
-        "
-      >
-        Ads
-        <span class="badge badge-primary badge-pill">50</span>
-      </li>
-      <li
-        class="
-          list-group-item
-          d-flex
-          justify-content-between
-          align-items-center
-        "
-      >
-        Junk
-        <span class="badge badge-primary badge-pill">99</span>
-      </li>
-    </ul>
-    <div class="card">
-      <div class="card-body">Basic card</div>
-    </div>
-    <div class="card">
-      <div class="card-header">Header</div>
-      <div class="card-body">Content</div>
-      <div class="card-footer">Footer</div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <h4 class="card-title">Card title</h4>
-        <p class="card-text">Some example text. Some example text.</p>
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
-      </div>
-    </div>
-    <div class="card" style="width: 400px">
-      <img class="card-img-top" src="img/logo.png" alt="Card image" />
-      <div class="card-body">
-        <h4 class="card-title">John Doe</h4>
-        <p class="card-text">Some example text.</p>
-        <a href="#" class="btn btn-primary">See Profile</a>
-      </div>
-    </div>
-    <div class="card" style="width: 500px">
-      <img class="card-img-top" src="img/logo.png" alt="Card image" />
-      <div class="card-img-overlay">
-        <h4 class="card-title">John Doe</h4>
-        <p class="card-text">Some example text.</p>
-        <a href="#" class="btn btn-primary">See Profile</a>
-      </div>
-    </div>
-    <div class="card-columns">
-      <div class="card bg-primary">
-        <div class="card-body text-center">
-          <p class="card-text">Some text inside the first card</p>
-        </div>
-      </div>
-      <div class="card bg-warning">
-        <div class="card-body text-center">
-          <p class="card-text">Some text inside the second card</p>
-        </div>
-      </div>
-      <div class="card bg-success">
-        <div class="card-body text-center">
-          <p class="card-text">Some text inside the third card</p>
-        </div>
-      </div>
-      <div class="card bg-danger">
-        <div class="card-body text-center">
-          <p class="card-text">Some text inside the fourth card</p>
-        </div>
-      </div>
-      <div class="card bg-light">
-        <div class="card-body text-center">
-          <p class="card-text">Some text inside the fifth card</p>
-        </div>
-      </div>
-      <div class="card bg-info">
-        <div class="card-body text-center">
-          <p class="card-text">Some text inside the sixth card</p>
-        </div>
-      </div>
-    </div>
-    <div class="dropdown">
-      <button
-        type="button"
-        class="btn btn-primary dropdown-toggle"
-        data-toggle="dropdown"
-      >
-        Dropdown button
-      </button>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Link 1</a>
-        <a class="dropdown-item" href="#">Link 2</a>
-        <a class="dropdown-item" href="#">Link 3</a>
-      </div>
-    </div>
-    <div class="btn-group">
-      <button type="button" class="btn btn-primary">Apple</button>
-      <button type="button" class="btn btn-primary">Samsung</button>
-      <div class="btn-group">
-        <button
-          type="button"
-          class="btn btn-primary dropdown-toggle"
-          data-toggle="dropdown"
-        >
-          Sony
-        </button>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Tablet</a>
-          <a class="dropdown-item" href="#">Smartphone</a>
-        </div>
-      </div>
-    </div>
-    <div class="btn-group">
-      <button type="button" class="btn btn-primary">Primary</button>
-      <button
-        type="button"
-        class="btn btn-primary dropdown-toggle dropdown-toggle-split"
-        data-toggle="dropdown"
-      ></button>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Link 1</a>
-        <a class="dropdown-item" href="#">Link 2</a>
-      </div>
-    </div>
-    <div class="btn-group-vertical">
-      <button type="button" class="btn btn-primary">Apple</button>
-      <button type="button" class="btn btn-primary">Samsung</button>
-      <div class="btn-group">
-        <button
-          type="button"
-          class="btn btn-primary dropdown-toggle"
-          data-toggle="dropdown"
-        >
-          Sony
-        </button>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Tablet</a>
-          <a class="dropdown-item" href="#">Smartphone</a>
-        </div>
-      </div>
-    </div>
-    <button data-toggle="collapse" data-target="#demo">Collapsible</button>
-
-    <div id="demo" class="collapse">Lorem ipsum dolor text....</div>
-    <a href="#demo" data-toggle="collapse">Collapsible</a>
-
-    <div id="demo" class="collapse">Lorem ipsum dolor text....</div>
-    <div id="demo" class="collapse show">Lorem ipsum dolor text....</div>
-    <div id="accordion">
-      <div class="card">
-        <div class="card-header">
-          <a class="card-link" data-toggle="collapse" href="#collapseOne">
-            Collapsible Group Item #1
-          </a>
-        </div>
-        <div id="collapseOne" class="collapse show" data-parent="#accordion">
-          <div class="card-body">Lorem ipsum..</div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-header">
-          <a
-            class="collapsed card-link"
-            data-toggle="collapse"
-            href="#collapseTwo"
-          >
-            Collapsible Group Item #2
-          </a>
-        </div>
-        <div id="collapseTwo" class="collapse" data-parent="#accordion">
-          <div class="card-body">Lorem ipsum..</div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-header">
-          <a
-            class="collapsed card-link"
-            data-toggle="collapse"
-            href="#collapseThree"
-          >
-            Collapsible Group Item #3
-          </a>
-        </div>
-        <div id="collapseThree" class="collapse" data-parent="#accordion">
-          <div class="card-body">Lorem ipsum..</div>
-        </div>
-      </div>
-    </div>
-    <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-    <!-- Centered nav -->
-    <ul class="nav justify-content-center"></ul>
-    <!-- Right-aligned nav -->
-    <ul class="nav justify-content-end">
-      <ul class="nav nav-tabs">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-    </ul>
-    <ul class="nav nav-pills">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Active</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-    <ul class="nav nav-pills">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Active</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
-          >Dropdown</a
-        >
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Link 1</a>
-          <a class="dropdown-item" href="#">Link 2</a>
-          <a class="dropdown-item" href="#">Link 3</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-    <!-- Nav tabs -->
-    <ul class="nav nav-tabs">
-      <li class="nav-item">
-        <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#menu1">Menu 1</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
-      </li>
-    </ul>
-
-    <!-- Tab panes -->
-    <div class="tab-content">
-      <div class="tab-pane container active" id="home">...</div>
-      <div class="tab-pane container fade" id="menu1">...</div>
-      <div class="tab-pane container fade" id="menu2">...</div>
-    </div>
-    <!-- Nav pills -->
-    <ul class="nav nav-pills">
-      <li class="nav-item">
-        <a class="nav-link active" data-toggle="pill" href="#home">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="pill" href="#menu1">Menu 1</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="pill" href="#menu2">Menu 2</a>
-      </li>
-    </ul>
-
-    <!-- Tab panes -->
-    <div class="tab-content">
-      <div class="tab-pane container active" id="home">...</div>
-      <div class="tab-pane container fade" id="menu1">...</div>
-      <div class="tab-pane container fade" id="menu2">...</div>
-    </div>
-    <!-- A grey horizontal navbar that becomes vertical on small screens -->
-    <nav class="navbar navbar-expand-sm bg-light">
-      <!-- Links -->
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 3</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- A vertical navbar -->
-    <nav class="navbar bg-light">
-      <!-- Links -->
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 3</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- Grey with black text -->
-    <nav class="navbar navbar-expand-sm bg-light navbar-light">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-    </nav>
-
-    <!-- Black with white text -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">...</nav>
-
-    <!-- Blue with white text -->
-    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">...</nav>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-      <!-- Brand -->
-      <a class="navbar-brand" href="#">Navbar</a>
-
-      <!-- Toggler/collapsibe Button -->
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#collapsibleNavbar"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- Navbar links -->
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-      <!-- Brand -->
-      <a class="navbar-brand" href="#">Logo</a>
-
-      <!-- Links -->
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 2</a>
-        </li>
-
-        <!-- Dropdown -->
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            id="navbardrop"
-            data-toggle="dropdown"
-          >
-            Dropdown link
-          </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Link 1</a>
-            <a class="dropdown-item" href="#">Link 2</a>
-            <a class="dropdown-item" href="#">Link 3</a>
-          </div>
-        </li>
-      </ul>
-    </nav>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-      <form class="form-inline" action="/action_page.php">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" />
-        <button class="btn btn-success" type="submit">Search</button>
-      </form>
-    </nav>
-    <!-- Barra navegacion fija -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-      <form class="form-inline" action="/action_page.php">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" />
-        <button class="btn btn-success" type="submit">Search</button>
-      </form>
-    </nav>
-    <!-- Barra navegacion pegajosa -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-      <form class="form-inline" action="/action_page.php">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" />
-        <button class="btn btn-success" type="submit">Search</button>
-      </form>
-    </nav>
-    <form action="/action_page.php">
-      <div class="form-group">
-        <label for="email">Email address:</label>
-        <input
-          type="email"
-          class="form-control"
-          placeholder="Enter email"
-          id="email"
-        />
-      </div>
-      <div class="form-group">
-        <label for="pwd">Password:</label>
-        <input
-          type="password"
-          class="form-control"
-          placeholder="Enter password"
-          id="pwd"
-        />
-      </div>
-      <div class="form-group form-check">
-        <label class="form-check-label">
-          <input class="form-check-input" type="checkbox" /> Remember me
-        </label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-    <form class="form-inline" action="/action_page.php">
-      <label for="email" class="mr-sm-2">Email address:</label>
-      <input
-        type="email"
-        class="form-control mb-2 mr-sm-2"
-        placeholder="Enter email"
-        id="email"
-      />
-      <label for="pwd" class="mr-sm-2">Password:</label>
-      <input
-        type="password"
-        class="form-control mb-2 mr-sm-2"
-        placeholder="Enter password"
-        id="pwd"
-      />
-      <div class="form-check mb-2 mr-sm-2">
-        <label class="form-check-label">
-          <input class="form-check-input" type="checkbox" /> Remember me
-        </label>
-      </div>
-      <button type="submit" class="btn btn-primary mb-2">Submit</button>
-    </form>
-    <form>
-      <div class="row">
-        <div class="col">
-          <input
-            type="text"
-            class="form-control"
-            id="email"
-            placeholder="Enter email"
-            name="email"
-          />
-        </div>
-        <div class="col">
-          <input
-            type="password"
-            class="form-control"
-            placeholder="Enter password"
-            name="pswd"
-          />
-        </div>
-      </div>
-    </form>
-    <form action="/action_page.php" class="was-validated">
-      <div class="form-group">
-        <label for="uname">Username:</label>
-        <input
-          type="text"
-          class="form-control"
-          id="uname"
-          placeholder="Enter username"
-          name="uname"
-          required
-        />
-        <div class="valid-feedback">Valid.</div>
-        <div class="invalid-feedback">Please fill out this field.</div>
-      </div>
-      <div class="form-group">
-        <label for="pwd">Password:</label>
-        <input
-          type="password"
-          class="form-control"
-          id="pwd"
-          placeholder="Enter password"
-          name="pswd"
-          required
-        />
-        <div class="valid-feedback">Valid.</div>
-        <div class="invalid-feedback">Please fill out this field.</div>
-      </div>
-      <div class="form-group form-check">
-        <label class="form-check-label">
-          <input
-            class="form-check-input"
-            type="checkbox"
-            name="remember"
-            required
-          />
-          I agree on blabla.
-          <div class="valid-feedback">Valid.</div>
-          <div class="invalid-feedback">Check this checkbox to continue.</div>
-        </label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-    <form action="/action_page.php" class="needs-validation" novalidate>
-      <div class="form-group">
-        <label for="uname">Username:</label>
-        <input
-          type="text"
-          class="form-control"
-          id="uname"
-          placeholder="Enter username"
-          name="uname"
-          required
-        />
-        <div class="valid-feedback">Valid.</div>
-        <div class="invalid-feedback">Please fill out this field.</div>
-      </div>
-      <div class="form-group">
-        <label for="pwd">Password:</label>
-        <input
-          type="password"
-          class="form-control"
-          id="pwd"
-          placeholder="Enter password"
-          name="pswd"
-          required
-        />
-        <div class="valid-feedback">Valid.</div>
-        <div class="invalid-feedback">Please fill out this field.</div>
-      </div>
-      <div class="form-group form-check">
-        <label class="form-check-label">
-          <input
-            class="form-check-input"
-            type="checkbox"
-            name="remember"
-            required
-          />
-          I agree on blabla.
-          <div class="valid-feedback">Valid.</div>
-          <div class="invalid-feedback">Check this checkbox to continue.</div>
-        </label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-
-    <script>
-      // Disable form submissions if there are invalid fields
-      (function () {
-        "use strict";
-        window.addEventListener(
-          "load",
-          function () {
-            // Get the forms we want to add validation styles to
-            var forms = document.getElementsByClassName("needs-validation");
-            // Loop over them and prevent submission
-            var validation = Array.prototype.filter.call(
-              forms,
-              function (form) {
-                form.addEventListener(
-                  "submit",
-                  function (event) {
-                    if (form.checkValidity() === false) {
-                      event.preventDefault();
-                      event.stopPropagation();
-                    }
-                    form.classList.add("was-validated");
-                  },
-                  false
-                );
-              }
-            );
-          },
-          false
-        );
-      })();
-    </script>
-    <div class="form-group">
-      <label for="comment">Comment:</label>
-      <textarea class="form-control" rows="5" id="comment"></textarea>
-    </div>
-    <div class="form-check">
-      <label class="form-check-label">
-        <input type="checkbox" class="form-check-input" value="" />Option 1
-      </label>
-    </div>
-    <div class="form-check">
-      <label class="form-check-label">
-        <input type="checkbox" class="form-check-input" value="" />Option 2
-      </label>
-    </div>
-    <div class="form-check">
-      <label class="form-check-label">
-        <input
-          type="checkbox"
-          class="form-check-input"
-          value=""
-          disabled
-        />Option 3
-      </label>
-    </div>
-    <div class="form-check-inline">
-      <label class="form-check-label">
-        <input type="checkbox" class="form-check-input" value="" />Option 1
-      </label>
-    </div>
-    <div class="form-check-inline">
-      <label class="form-check-label">
-        <input type="checkbox" class="form-check-input" value="" />Option 2
-      </label>
-    </div>
-    <div class="form-check-inline">
-      <label class="form-check-label">
-        <input
-          type="checkbox"
-          class="form-check-input"
-          value=""
-          disabled
-        />Option 3
-      </label>
-    </div>
-    <div class="form-check">
-      <label class="form-check-label">
-        <input type="radio" class="form-check-input" name="optradio" />Option 1
-      </label>
-    </div>
-    <div class="form-check">
-      <label class="form-check-label">
-        <input type="radio" class="form-check-input" name="optradio" />Option 2
-      </label>
-    </div>
-    <div class="form-check disabled">
-      <label class="form-check-label">
-        <input
-          type="radio"
-          class="form-check-input"
-          name="optradio"
-          disabled
-        />Option 3
-      </label>
-    </div>
-    <div class="form-check-inline">
-      <label class="form-check-label">
-        <input type="radio" class="form-check-input" name="optradio" />Option 1
-      </label>
-    </div>
-    <div class="form-check-inline">
-      <label class="form-check-label">
-        <input type="radio" class="form-check-input" name="optradio" />Option 2
-      </label>
-    </div>
-    <div class="form-check-inline disabled">
-      <label class="form-check-label">
-        <input
-          type="radio"
-          class="form-check-input"
-          name="optradio"
-          disabled
-        />Option 3
-      </label>
-    </div>
-    <div class="form-group">
-      <label for="sel1">Select list:</label>
-      <select class="form-control" id="sel1">
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-      </select>
-    </div>
-    <input type="text" class="form-control form-control-sm" />
-    <input type="text" class="form-control form-control" />
-    <input type="text" class="form-control form-control-lg" />
-    <input type="range" class="form-control-range" />
-    <input type="file" class="form-control-file border" />
-    <!-- Multiple inputs -->
-    <form>
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <span class="input-group-text">Person</span>
-        </div>
-        <input type="text" class="form-control" placeholder="First Name" />
-        <input type="text" class="form-control" placeholder="Last Name" />
-      </div>
-    </form>
-
-    <!-- Multiple addons / help text -->
-    <form>
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <span class="input-group-text">One</span>
-          <span class="input-group-text">Two</span>
-          <span class="input-group-text">Three</span>
-        </div>
-        <input type="text" class="form-control" />
-      </div>
-    </form>
-    <div class="input-group mb-3">
-      <div class="input-group-prepend">
-        <button class="btn btn-outline-primary" type="button">
-          Basic Button
-        </button>
-      </div>
-      <input type="text" class="form-control" placeholder="Some text" />
-    </div>
-
-    <div class="input-group mb-3">
-      <input type="text" class="form-control" placeholder="Search" />
-      <div class="input-group-append">
-        <button class="btn btn-success" type="submit">Go</button>
-      </div>
-    </div>
-
-    <div class="input-group mb-3">
-      <input
-        type="text"
-        class="form-control"
-        placeholder="Something clever.."
-      />
-      <div class="input-group-append">
-        <button class="btn btn-primary" type="button">OK</button>
-        <button class="btn btn-danger" type="button">Cancel</button>
-      </div>
-    </div>
-    <label for="demo">Write your email here:</label>
-    <div class="input-group mb-3">
-      <input
-        type="text"
-        class="form-control"
-        placeholder="Email"
-        id="demo"
-        name="email"
-      />
-      <div class="input-group-append">
-        <span class="input-group-text">@example.com</span>
-      </div>
-    </div>
-    <form>
-      <div class="custom-control custom-checkbox">
-        <input
-          type="checkbox"
-          class="custom-control-input"
-          id="customCheck"
-          name="example1"
-        />
-        <label class="custom-control-label" for="customCheck"
-          >Check this custom checkbox</label
-        >
-      </div>
-    </form>
-    <form>
-      <div class="custom-control custom-switch">
-        <input type="checkbox" class="custom-control-input" id="switch1" />
-        <label class="custom-control-label" for="switch1">Toggle me</label>
-      </div>
-    </form>
-    <form>
-      <div class="custom-control custom-radio">
-        <input
-          type="radio"
-          class="custom-control-input"
-          id="customRadio"
-          name="example1"
-          value="customEx"
-        />
-        <label class="custom-control-label" for="customRadio"
-          >Custom radio</label
-        >
-      </div>
-    </form>
-    <form>
-      <div class="custom-control custom-radio custom-control-inline">
-        <input
-          type="radio"
-          class="custom-control-input"
-          id="customRadio"
-          name="example"
-          value="customEx"
-        />
-        <label class="custom-control-label" for="customRadio"
-          >Custom radio 1</label
-        >
-      </div>
-      <div class="custom-control custom-radio custom-control-inline">
-        <input
-          type="radio"
-          class="custom-control-input"
-          id="customRadio2"
-          name="example"
-          value="customEx"
-        />
-        <label class="custom-control-label" for="customRadio2"
-          >Custom radio 2</label
-        >
-      </div>
-    </form>
-    <form>
-      <select name="cars" class="custom-select">
-        <option selected>Custom Select Menu</option>
-        <option value="volvo">Volvo</option>
-        <option value="fiat">Fiat</option>
-        <option value="audi">Audi</option>
-      </select>
-    </form>
-    <form>
-      <!-- Small -->
-      <select name="cars" class="custom-select-sm">
-        <option selected>Small Custom Select Menu</option>
-        <option value="volvo">Volvo</option>
-        <option value="fiat">Fiat</option>
-        <option value="audi">Audi</option>
-      </select>
-
-      <!-- Large -->
-      <select name="cars" class="custom-select-lg">
-        <option selected>Large Custom Select Menu</option>
-        <option value="volvo">Volvo</option>
-        <option value="fiat">Fiat</option>
-        <option value="audi">Audi</option>
-      </select>
-    </form>
-    <form>
-      <label for="customRange">Custom range</label>
-      <input
-        type="range"
-        class="custom-range"
-        id="customRange"
-        name="points1"
-      />
-    </form>
-    <form>
-      <div class="custom-file">
-        <input type="file" class="custom-file-input" id="customFile" />
-        <label class="custom-file-label" for="customFile">Choose file</label>
-      </div>
-    </form>
-
-    <script>
-      // Add the following code if you want the name of the file appear on select
-      $(".custom-file-input").on("change", function () {
-        var fileName = $(this).val().split("\\").pop();
-        $(this)
-          .siblings(".custom-file-label")
-          .addClass("selected")
-          .html(fileName);
-      });
-    </script>
-    <div id="demo" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ul class="carousel-indicators">
-        <li data-target="#demo" data-slide-to="0" class="active"></li>
-        <li data-target="#demo" data-slide-to="1"></li>
-        <li data-target="#demo" data-slide-to="2"></li>
-      </ul>
-
-      <!-- The slideshow -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/logo.png" alt="Los Angeles" />
-        </div>
-        <div class="carousel-item">
-          <img src="img/logo.png" alt="Chicago" />
-        </div>
-        <div class="carousel-item">
-          <img src="img/logo.png" alt="New York" />
-        </div>
-      </div>
-
-      <!-- Left and right controls -->
-      <a class="carousel-control-prev" href="#demo" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#demo" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
-    </div>
-    <!-- Button to Open the Modal -->
-    <button
-      type="button"
-      class="btn btn-primary"
-      data-toggle="modal"
-      data-target="#myModal"
-    >
-      Open modal
-    </button>
-
-    <!-- The Modal -->
-    <div class="modal" id="myModal">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">Modal Heading</h4>
-            <button type="button" class="close" data-dismiss="modal">
-              &times;
-            </button>
-          </div>
-
-          <!-- Modal body -->
-          <div class="modal-body">Modal body..</div>
-
-          <!-- Modal footer -->
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">
-              Close
-            </button>
-          </div>
-          <!-- Fading modal -->
-          <div class="modal fade"></div>
-
-          <!-- Modal without animation -->
-          <div class="modal"></div>
-        </div>
-      </div>
-    </div>
-    <!-- The scrollable area -->
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-
-    <!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-    ...
-      <ul class="navbar-nav">
-        <li><a href="#section1">Section 1</a></li>
-        ...
-    </nav>
-    
-    <!-- Section 1 -->
-    <div id="section1">
-      <h1>Section 1</h1>
-      <p>Try to scroll this page and look at the navigation bar while scrolling!</p>
-    </div>
-    ...
-    <div class="w-25 bg-warning">Width 25%</div>
-<div class="w-50 bg-warning">Width 50%</div>
-<div class="w-75 bg-warning">Width 75%</div>
-<div class="w-100 bg-warning">Width 100%</div>
-<div class="mw-100 bg-warning">Max Width 100%</div>
-<div style="height:200px;background-color:#ddd">
-    <div class="h-25 bg-warning">Height 25%</div>
-    <div class="h-50 bg-warning">Height 50%</div>
-    <div class="h-75 bg-warning">Height 75%</div>
-    <div class="h-100 bg-warning">Height 100%</div>
-    <div class="mh-100 bg-warning" style="height:500px">Max Height 100%</div>
-  </div>
-  <div class="pt-4 bg-warning">I only have a top padding (1.5rem = 24px)</div>
-<div class="p-5 bg-success">I have a padding on all sides (3rem = 48px)</div>
-<div class="m-5 pb-5 bg-info">I have a margin on all sides (3rem = 48px) and a bottom padding (3rem = 48px)</div>
-<div class="d-flex p-3 bg-secondary text-white">
-    <div class="p-2 bg-info">Flex item 1</div>
-    <div class="p-2 bg-warning">Flex item 2</div>
-    <div class="p-2 bg-primary">Flex item 3</div>
-  </div>
-  <div class="d-inline-flex p-3 bg-secondary text-white">
-    <div class="p-2 bg-info">Flex item 1</div>
-    <div class="p-2 bg-warning">Flex item 2</div>
-    <div class="p-2 bg-primary">Flex item 3</div>
-  </div>
-  <div class="d-flex flex-column">
-    <div class="p-2 bg-info">Flex item 1</div>
-    <div class="p-2 bg-warning">Flex item 2</div>
-    <div class="p-2 bg-primary">Flex item 3</div>
-  </div>
-  
-  <div class="d-flex flex-column-reverse">
-    <div class="p-2 bg-info">Flex item 1</div>
-    <div class="p-2 bg-warning">Flex item 2</div>
-    <div class="p-2 bg-primary">Flex item 3</div>
-  </div>
-  <i class="fas fa-cloud"></i>
-<i class="fas fa-coffee"></i>
-<i class="fas fa-car"></i>
-<i class="fas fa-file"></i>
-<i class="fas fa-bars"></i>
-<div class="media border p-3">
-    <img src="img/logo.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
-    <div class="media-body">
-      <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
-      <p>Lorem ipsum...</p>
-      <div class="media p-3">
-        <img src="img/logo.png" alt="Jane Doe" class="mr-3 mt-3 rounded-circle" style="width:45px;">
-        <div class="media-body">
-          <h4>Jane Doe <small><i>Posted on February 20 2016</i></small></h4>
-          <p>Lorem ipsum...</p>
-        </div>
-      </div> 
-    </div>
-  </div>
-  
-<div class="w3-example">
-    <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ejemplo</font></font></h3>
-    <div class="w3-padding w3-white notranslate" style="width:100%">
-    <div style="width:100%">
-      <p style="margin-top:14px">Type something in the input field to search the table for first names, last names or emails:</p>  
-      <input class="form-control" id="myInput" type="text" placeholder="Search..">
-      <br>
-      <table class="table table-bordered">
-        <thead>
-          <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Email</th>
-          </tr>
-        </thead>
-        <tbody id="myTable">
-          <tr>
-            <td>John</td>
-            <td>Doe</td>
-            <td>john@example.com</td>
-          </tr>
-          <tr>
-            <td>Mary</td>
-            <td>Moe</td>
-            <td>mary@mail.com</td>
-          </tr>
-          <tr>
-            <td>July</td>
-            <td>Dooley</td>
-            <td>july@greatstuff.com</td>
-          </tr>
-          <tr>
-            <td>Anja</td>
-            <td>Ravendale</td>
-            <td>a_r@test.com</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    
-    <script>
-        $(document).ready(function(){
-          $("#myInput").on("keyup", function() {
-            var value = $(this).val().toLowerCase();
-            $("#myTable tr").filter(function() {
-              $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-            });
-          });
-        });
-        </script>
-
-<div class="container">
-    <div class="row">
-      <div class="col-sm-6 bg-success">
-        <p>Lorem ipsum...</p>
-      </div>
-      <div class="col-sm-6 bg-warning">
-        <p>Sed ut perspiciatis...</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Two columns: 50% width on all screens, except for extra small (100% width) -->
-<div class="row">
-    <div class="col-sm">1 of 2</div>
-    <div class="col-sm">2 of 2</div>
-  </div>
-  
-  <!-- Four columns: 25% width on all screens, except for extra small (100% width)-->
-  <div class="row">
-    <div class="col-sm">1 of 4</div>
-    <div class="col-sm">2 of 4</div>
-    <div class="col-sm">3 of 4</div>
-    <div class="col-sm">4 of 4</div>
-  </div>
-
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-3 bg-success">
-        <p>Lorem ipsum...</p>
-      </div>
-      <div class="col-9 bg-warning">
-        <p>Sed ut perspiciatis...</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- 33.3%/66.6% split -->
-<div class="container-fluid">
-    <div class="row">
-      <div class="col-4 bg-success">
-        <p>Lorem ipsum...</p>
-      </div>
-      <div class="col-8 bg-warning">
-        <p>Sed ut perspiciatis...</p>
-      </div>
-    </div>
-  </div>
-  
-  <!-- 50%/50% split -->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-6 bg-success">
-        <p>Lorem ipsum...</p>
-      </div>
-      <div class="col-6 bg-warning">
-        <p>Sed ut perspiciatis...</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Two columns: 50% width-->
-<div class="row">
-    <div class="col">1 of 2</div>
-    <div class="col">2 of 2</div>
-  </div>
-  
-  <!-- Four columns: 25% width-->
-  <div class="row">
-    <div class="col">1 of 4</div>
-    <div class="col">2 of 4</div>
-    <div class="col">3 of 4</div>
-    <div class="col">4 of 4</div>
-  </div>
-
-  
-  </body>
 </html>
