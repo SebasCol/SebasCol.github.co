@@ -13,9 +13,18 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_QAB0mz0b61bxKahQMrKJJ");
+        })();
+    </script>
 </head>
 
+
 <body class="bg-dark">
+    
     <div class="container">
         <div class="jumbotron  bg-dark">
             <div class="row">
@@ -56,33 +65,50 @@
             <div class="row border  ">
                 <ul class="nav nav-tabs ">
                     <li class="nav-item ">
-                        <a class="nav-link " data-bs-toggle="tab" href="#estudio">Estudios</a>
+                        <a class="nav-link " data-bs-toggle="tab" href="#estudio">
+                            Estudios
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tab" href="#skill">Skills</a>
+                        <a class="nav-link " data-bs-toggle="tab" href="#experiencia">
+                            Experiencia
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " data-bs-toggle="tab" href="#proyectos">Proyectos</a>
+                        <a class="nav-link " data-bs-toggle="tab" href="#referencias">
+                            Referencias
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#skill">
+                            Conocimientos adicionales
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-bs-toggle="tab" href="#proyectos">
+                            Proyectos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-bs-toggle="tab" href="#contacto">
+                            Contacto
+                        </a>
                     </li>
 
                 </ul>
                 <div class="tab-content bg-dark text-white border p-3">
 
                     <div class="tab-pane fade active show" id="estudio">
-                        <h2>Estudios</h2>
+
                         <table class="table table-striped table-bordered table-sm table-responsive-sm">
 
                             <tbody>
                                 <tr>
                                     <td>
-                                        2007 <br />
-                                        Floridablanca
-                                    </td>
-                                    <td>
-                                        BASICA PRIMARIA <br />
-                                        Concentración Domingo Savio
+                                        <h2 class="text-white">Estudios</h2>
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td>
                                         2013 <br />
@@ -115,7 +141,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <h2>Cursos</h2>
+                                        <h2 class="text-white">Cursos</h2>
                                     </td>
                                 </tr>
 
@@ -151,49 +177,68 @@
 
 
                     </div>
-
                     <div class="tab-pane fade" id="skill">
-                        <h2>Front end</h2>
+                        <h2 class="p-2 border-bottom">Lenguajes de programacion</h2>
 
-                        <h4>HTML <i class="fab fa-html5 fa-2x"></i></h4>
+                        <h4>HTML <i class="fab fa-html5 fa-2x p-2"></i></h4>
                         <div class="progress">
                             <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
                                 style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <h4>CSS <i class="fab fa-css3-alt fa-2x"></i></h4>
+                        <h4>CSS <i class="fab fa-css3-alt fa-2x p-2"></i></h4>
                         <div class="progress">
                             <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
                                 style="width: 65%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <h4>Bootstrap <i class="fab fa-bootstrap fa-2x"></i></h4>
+                        <h4>Bootstrap<i class="fab fa-bootstrap fa-2x p-4"></i></h4>
                         <div class="progress">
                             <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
                                 style="width: 65%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
 
-                        <h4>JS <i class="fab fa-js fa-2x"></i></h4>
+                        <h4>JS <i class="fab fa-js fa-2x p-2"></i></h4>
                         <div class="progress">
                             <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
                                 style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <h2>Back end</h2>
-                        <h4>Python <i class="fab fa-python fa-2x"></i></h4>
+
+                        <h4>Python <i class="fab fa-python fa-2x p-2"></i></h4>
                         <div class="progress">
                             <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
                                 style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <h4>Java <i class="fab fa-java fa-2x"></i></h4>
+                        <h4>Java <i class="fab fa-java fa-2x p-2"></i></h4>
                         <div class="progress">
                             <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
                                 style="width: 20%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
 
-                        <h4>SQL <i class="fas fa-database fa-2x"></i></i></h4>
+                        <h4>SQL <i class="fas fa-database fa-2x p-2"></i></i></h4>
                         <div class="progress">
                             <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
                                 style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-
+                        <h2 class="pt-5 pb-2 border-bottom">Manejo de Software</h2>
+                        <h4 class=" pt-4">Matlab </h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                                style="width: 35%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h4 class=" pt-4">LabVIEW </h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                                style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h4 class=" pt-4">AutoCAD </h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                                style="width: 20%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h4 class=" pt-2">SoMachine </h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                                style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
 
                     </div>
                     <div class="tab-pane fade" id="proyectos">
@@ -205,8 +250,8 @@
                                     <img class="rounded img-fluid img_foto " src="img/proyecto_micitamedica.png" />
                                     <h4 class="card-title">Proyecto MisionTic 2021</h4>
                                     <p class="card-text ">Pagina web diseñada para el manejo de informacion general de
-                                        una clinica, con solicitud de citas medicas y contacto con envio de informacion
-                                        por correo</p>
+                                        un establecimiento medico, con solicitud de citas medicas y contacto con envio de informacion
+                                        por correo.</p>
                                 </div>
                                 <div class="card-footer">
                                     <i class="fab fa-html5 fa-2x"></i>
@@ -236,6 +281,101 @@
                             </div>
 
                         </div>
+                    </div>
+                    <div class="tab-pane fade " id="contacto">
+                        <div class="col-sm-8 m-3">
+                            <div class="form-group p-1">
+                                <input type="text" class="form-control " id="nombre" placeholder="Nombre completo" />
+                            </div>
+                            <div class="form-group p-1">
+                                <input type="text" class="form-control " id="telefono"
+                                    placeholder="Telefono y/o celular" />
+                            </div>
+                            <div class="form-group p-1">
+                                <input type="email" class=" form-control" id="correo"
+                                    placeholder="Correo electrónico" />
+                            </div>
+                            <div class="form-group p-1">
+                                <input type="text" class="form-control " id="asunto" placeholder="Asunto" />
+                            </div>
+                            <div class="form-group p-1">
+                                <textarea class="form-control " rows="5" id="mensaje"
+                                    placeholder="Informacion adicional"></textarea>
+                            </div>
+
+                            <div class="btn_enviar justify-content-center p-1 pt-3">
+                                <button type="button" class="btn border w-50 text-white"
+                                    onclick="enviarCorreo()">ENVIAR</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="experiencia">
+                        <h2 class="pt-2 pb-2 border-bottom">EXPERIENCIA LABORAL</h2>
+                        <table class="table table-striped table-bordered table-sm table-responsive-sm">
+
+                            <tbody>
+
+
+                                <tr>
+                                    <td>
+                                        <h4 class="text-white">
+                                            HECHO EN COLOMBIA<br />
+                                            Bucaramanga <br />
+                                            Colombia</h4>
+                                    </td>
+                                    <td>
+                                        <h6>Cargo:  Auxiliar Administrativo<br />
+                                        Tareas realizadas: Desarrollo de software en lenguaje Python, manejo de
+                                        base de datos phpMyAdmin
+                                        conexión MySQL, manejo
+                                        básico Excel y Word.<br />
+                                        Periodos: <br />22 de Noviembre de 2015 – 10 de Enero de 2016<br />
+                                        24 de Mayo de 2016 – 23 de Junio de 2016<br />
+                                        23 de Noviembre de 2016 – 30 de Diciembre de 2016<br />
+                                        01 de Junio de 2017 – 01 de Julio de 2017<br />
+                                        15 de Junio de 2018 – 16 de Julio de 2018<br />
+                                    </h6>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+
+
+
+                    </div>
+                    <div class="tab-pane fade" id="referencias">
+                        <h2 class="pt-2 pb-2 border-bottom">Referencia Laboral</h2>
+                        <h5 class="p-3 ">
+                            STELLA SEPULVEDA MUJICA<br>
+                            HECHO EN COLOMBIA<br>
+                            315 7859343
+                        </h5>
+                        <h2 class="pt-2 pb-2 border-bottom">Referencia Personal</h2>
+                        <h5 class="p-3 ">
+                            SEBASTIAN BALAGUERA<br>
+                            Estudiante Psicología UPB<br>
+                            3178605412
+                        </h5>
+                        <h5 class="px-3 ">
+                            VICTOR ANDRES CARVAJAL SIERRA<br>
+                            Ingeniero Electrónico <br>
+                            322 8873943
+                        </h5>
+                        <h2 class="pt-2 pb-2 border-bottom">Referencia Familiar</h2>
+                        <h5 class="p-3 ">
+                            NELSY GARCIA VARGAS<br>
+                            Manipuladora de alimentos - Niños de papel<br>
+                            3132657793
+                        </h5>
+                        <h5 class="px-3 ">
+                            MELISSA COLMENARES GARCIA<br>
+                            Fisioterapeuta – Clínica Bucaramanga<br>
+                            3155438526
+                        </h5>
+
+
                     </div>
                     <div class="tab-pane fade" id="dropdown2">
                         <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold
